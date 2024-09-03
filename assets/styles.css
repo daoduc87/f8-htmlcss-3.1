@@ -419,6 +419,15 @@ a {
     padding-bottom: 23px;
 }
 
+.services .item:hover .info-item {
+    margin-left: 18px;
+}
+
+.services .item:hover {
+    transform: translateX(8px);
+    transition: transform 0.3s ease;
+}
+
 .services .thumb {
     width: 370px;
     height: 318px;
@@ -1292,8 +1301,9 @@ a {
     line-height: 12px; /* 120% */
 }
 
-.blog .item:hover .thumb {
-    transform: translateX(1px);
+.blog .item:hover {
+    transform: translateX(8px);
+    transition: transform 0.3s ease;
 }
 
 .blog .item:hover .btn {
